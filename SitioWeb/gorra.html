@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A la gorra</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <button><a href="index.html" target="_blank">Retroceder</a></button>
+    <img id="myImage" onclick="changeImage()" src="../Imagenes_fondos/fondogorrauno.jpeg" >
+    <img id="myImage1" onclick="changeImage()" src="../Imagenes_fondos/gorrados.jpeg" alt="imagendos">
+
+
+<script>
+ 
+    function changeImage() {
+        var image = document.getElementById('myImage');
+       
+
+        if (onclick) {
+            image.src = '(../Imagenes_fondos/gorrados.jpeg)';
+        } else {
+            image.src='(../Imagenes_fondos/fondogorrauno.jpeg)';
+        }
+    }
+     
+    </script>
+
+
+    <audio autoplay loop src="../Audios/a.mpeg"></audio>
+   
+    <audio id="mireproductor" controls>
+        <source src="../Audios/a.mpeg" type="audio/ogg">
+        <source src="../Audios/a.mpeg" type="audio/mpeg">
+        <source src="../Audios/a.mpeg" type="audio/wav">
+            <object type="application/x-shockwave-flash" data="player.swf?miArchivo=mi-archivo-de-audio.mp3">
+                <param name="movie" value="player.swf?miArchivo=mi-archivo-de-audio.mp3">
+                <a href="../Audios/a.mpeg">Descárgate aquí mi archivo de audio</a>
+            </object>
+
+
+            
+
+
+
+
+
+</body>
+</html>
