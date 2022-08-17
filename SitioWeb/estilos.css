@@ -180,8 +180,18 @@ body{
   left: 30%;
   width: 40%;
 }
-
-
+#audio1{
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  width: 40%;
+}
+#audio2{
+  position:absolute;
+  top: 30%;
+  left:30%;
+  width: 40%;
+}
 
 .flex-container{
    display: flex;
@@ -228,3 +238,11 @@ button{
 
 }
 
+#contenedor2{
+  background-image: url(../Imagenes_fondos/Sin-título-2.gif);
+  margin-left: 1200px;
+}
+#referencia{
+  max-width: 80%;
+  margin-left: 300px;
+}
